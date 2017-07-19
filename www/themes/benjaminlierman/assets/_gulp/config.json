@@ -1,0 +1,19 @@
+{
+  "appVendor": {
+    "src": []
+  },
+  "appStyles": {
+    "appSrc": "scss/**/*.scss",
+    "appDest": "css/",
+    "concatFilename": "app.styles.min.css"
+  },
+  "appScripts": {
+    "appSrc": "lib/**/*.js",
+    "appDest": "js/",
+    "concatFilename": "app.scripts.min.js"
+  },
+  "sass": {
+    "includePaths": [],
+    "outputStyle": "compressed"
+  }
+}

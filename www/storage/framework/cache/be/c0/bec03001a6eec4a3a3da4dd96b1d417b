@@ -1,0 +1,90 @@
+1500480719a:1:{s:28:"services/digitalbranding.htm";a:11:{s:8:"fileName";s:28:"services/digitalbranding.htm";s:7:"content";s:2945:"title = "Digital Branding"
+url = "/services/digital-branding"
+layout = "default"
+meta_title = "Hoe u merk in de kijker plaatsen door middel van digital branding - Benjamin Lierman"
+meta_description = "Aan de hand van impactvolle campagnes brengen we uw bedrijf in de kijker. In het oog springen zonder de eigenheid van je merk te verliezen, dat is waar we voor gaan. Een creatieve campagne is een erg krachtige marketingtool. Of je nu een nieuwe dienst lanceert of je verkoop wilt stimuleren."
+is_hidden = 0
+==
+{% put metatags  %}
+<meta property="og:title" content="Digital Branding - Websites &amp; webapplicaties vanuit Poperinge - Benjamin Lierman">
+<meta property="og:url" content="http://www.benjaminlierman.be/services/digital-branding">
+<meta property="og:description" content="Een creatieve campagne lanceren? Wil je zowel offline als online aanwezigheid?">
+{% endput %}
+
+<section class="uk-background-cover uk-background-bottom-right"
+         style="background-image: url({{ 'assets/images/pexels-photo-316466.jpeg'|theme }});">
+    <header class="mask-triangle-left uk-padding uk-light uk-background-secondary uk-animation-slide-left" style="height: 55vh;">
+        <div class="uk-position-center-left uk-padding">
+            <h1>Digital Branding</h1>
+            <ul class="uk-breadcrumb">
+                <li><a href="/services" title="services overzichtspagina">Services</a></li>
+                <li>Digital Branding</li>
+            </ul>
+        </div>
+    </header>
+</section>
+
+<div class="uk-grid-collapse" uk-scrollspy="target: > div > img; cls:uk-animation-slide-left; delay: 250; repeat:true;"  uk-grid>
+    <div class="uk-width-3-5@m uk-width-1-1@s">
+        <img src="{{ 'assets/images/pexels-photo-475735.jpeg'|theme }}" alt="">
+    </div>
+    <div class="uk-width-2-5@m uk-width-1-1@s uk-padding-large">
+        <div class="uk-tile uk-tile-default">
+            <p class="uk-text-bold">
+                Impactvolle campagnes
+            </p>
+            <p>
+                Een creatieve campagne is een <strong>erg krachtige marketingtool.</strong> Of je nu een <strong>nieuwe dienst lanceert</strong> of je verkoop wilt stimuleren, wij brengen jouw boodschap op een duidelijke en originele manier over.
+                In het oog springen zonder de eigenheid van <strong>je merk te verliezen</strong>, dat is waar we voor gaan.
+            </p>
+            <p>
+                Natuurlijk verdient uw boodschap ook <strong>de beste drager.</strong> We selecteren en motiveren in uw campagneplan de beste communicatiemix.
+                We werken crossmediaal en combineren probleemloos traditionele met de allernieuwste media.
+                We kiezen en kopen de meest geschikte media, bepalen het formaat en de doorlooptijd en <strong>beheren zo optimaal uw mediabudget.</strong>
+            </p>
+        </div>
+    </div>
+</div>
+
+{% partial 'misc/webdevelopment' %}";s:5:"mtime";i:1500479785;s:6:"markup";s:2427:"{% put metatags  %}
+<meta property="og:title" content="Digital Branding - Websites &amp; webapplicaties vanuit Poperinge - Benjamin Lierman">
+<meta property="og:url" content="http://www.benjaminlierman.be/services/digital-branding">
+<meta property="og:description" content="Een creatieve campagne lanceren? Wil je zowel offline als online aanwezigheid?">
+{% endput %}
+
+<section class="uk-background-cover uk-background-bottom-right"
+         style="background-image: url({{ 'assets/images/pexels-photo-316466.jpeg'|theme }});">
+    <header class="mask-triangle-left uk-padding uk-light uk-background-secondary uk-animation-slide-left" style="height: 55vh;">
+        <div class="uk-position-center-left uk-padding">
+            <h1>Digital Branding</h1>
+            <ul class="uk-breadcrumb">
+                <li><a href="/services" title="services overzichtspagina">Services</a></li>
+                <li>Digital Branding</li>
+            </ul>
+        </div>
+    </header>
+</section>
+
+<div class="uk-grid-collapse" uk-scrollspy="target: > div > img; cls:uk-animation-slide-left; delay: 250; repeat:true;"  uk-grid>
+    <div class="uk-width-3-5@m uk-width-1-1@s">
+        <img src="{{ 'assets/images/pexels-photo-475735.jpeg'|theme }}" alt="">
+    </div>
+    <div class="uk-width-2-5@m uk-width-1-1@s uk-padding-large">
+        <div class="uk-tile uk-tile-default">
+            <p class="uk-text-bold">
+                Impactvolle campagnes
+            </p>
+            <p>
+                Een creatieve campagne is een <strong>erg krachtige marketingtool.</strong> Of je nu een <strong>nieuwe dienst lanceert</strong> of je verkoop wilt stimuleren, wij brengen jouw boodschap op een duidelijke en originele manier over.
+                In het oog springen zonder de eigenheid van <strong>je merk te verliezen</strong>, dat is waar we voor gaan.
+            </p>
+            <p>
+                Natuurlijk verdient uw boodschap ook <strong>de beste drager.</strong> We selecteren en motiveren in uw campagneplan de beste communicatiemix.
+                We werken crossmediaal en combineren probleemloos traditionele met de allernieuwste media.
+                We kiezen en kopen de meest geschikte media, bepalen het formaat en de doorlooptijd en <strong>beheren zo optimaal uw mediabudget.</strong>
+            </p>
+        </div>
+    </div>
+</div>
+
+{% partial 'misc/webdevelopment' %}";s:4:"code";N;s:5:"title";s:16:"Digital Branding";s:3:"url";s:26:"/services/digital-branding";s:6:"layout";s:7:"default";s:10:"meta_title";s:84:"Hoe u merk in de kijker plaatsen door middel van digital branding - Benjamin Lierman";s:16:"meta_description";s:291:"Aan de hand van impactvolle campagnes brengen we uw bedrijf in de kijker. In het oog springen zonder de eigenheid van je merk te verliezen, dat is waar we voor gaan. Een creatieve campagne is een erg krachtige marketingtool. Of je nu een nieuwe dienst lanceert of je verkoop wilt stimuleren.";s:9:"is_hidden";s:1:"0";}}

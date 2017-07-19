@@ -1,0 +1,103 @@
+1500498898a:1:{s:15:"site/footer.htm";a:5:{s:8:"fileName";s:15:"site/footer.htm";s:7:"content";s:2272:"{% if this.page.id != 'contact' %}
+<div class="uk-section-default uk-dark uk-section-large uk-margin-top"
+     uk-scrollspy="target: > div > h3; cls:uk-animation-fade; delay: 250; repeat: true;">
+    <div class="uk-text-center uk-padding" uk-grid>
+        <h3 class="uk-width-1-1"><a href="{{ 'contact'|page }}" title="contact Benjamin Lierman"
+                                    class="uk-link-reset"><span class="uk-text-muted">Ook op zoek naar inspirerend digitaal werk?</span>
+            Let's go! <span class="uk-margin-small-right" uk-icon="icon: arrow-right"></span></a></h3>
+    </div>
+</div>
+{% endif %}
+
+<hr>
+
+<footer class="uk-section uk-section-large uk-padding uk-text-muted">
+    <section class="uk-child-width-expand@s uk-text-center uk-text-left@m"
+             uk-scrollspy="target: > ul; cls:uk-animation-fade; delay: 250;" uk-grid>
+        <ul class="uk-list">
+            <li>Benjamin Lierman</li>
+            <li>Werf 123</li>
+            <li>8970 Poperinge</li>
+            <li>BE 0671.689.168</li>
+        </ul>
+        <ul class="uk-list">
+            <li><a href="mailto:info@benjaminlierman.be" title="mail benjamin lierman">info@benjaminlierman.be</a></li>
+            <li>+ 32 (0) 493 74 70 29</li>
+        </ul>
+        <ul class="uk-list">
+            <li><a>Facebook</a></li>
+            <li><a>Pinterest</a></li>
+        </ul>
+    </section>
+</footer>
+
+<hr>
+
+<div class="uk-section uk-padding uk-text-muted">
+    <section uk-scrollspy="target: > small; cls:uk-animation-slide-bottom; delay: 250; repeat: true;">
+        <small>&copy; Copyright Benjamin Lierman 2017</small>
+        <a class="uk-link-reset" href="/terms-and-conditions">
+            <small class="uk-margin-small-left">Terms & Conditions</small>
+        </a>
+        <a class="uk-link-reset" href="/privacy-policy">
+            <small class="uk-margin-small-left">Privacy Policy</small>
+        </a>
+        <a class="uk-link-reset" href="/contact">
+            <small class="uk-align-right"><strong>Let's go</strong> <span class="uk-margin-small-right"
+                                                                          uk-icon="icon: arrow-right"></span></small>
+        </a>
+    </section>
+</div>
+
+<a id="totop" href="#" uk-totop uk-scroll="duration: 1400;"></a>";s:5:"mtime";i:1500482631;s:6:"markup";s:2272:"{% if this.page.id != 'contact' %}
+<div class="uk-section-default uk-dark uk-section-large uk-margin-top"
+     uk-scrollspy="target: > div > h3; cls:uk-animation-fade; delay: 250; repeat: true;">
+    <div class="uk-text-center uk-padding" uk-grid>
+        <h3 class="uk-width-1-1"><a href="{{ 'contact'|page }}" title="contact Benjamin Lierman"
+                                    class="uk-link-reset"><span class="uk-text-muted">Ook op zoek naar inspirerend digitaal werk?</span>
+            Let's go! <span class="uk-margin-small-right" uk-icon="icon: arrow-right"></span></a></h3>
+    </div>
+</div>
+{% endif %}
+
+<hr>
+
+<footer class="uk-section uk-section-large uk-padding uk-text-muted">
+    <section class="uk-child-width-expand@s uk-text-center uk-text-left@m"
+             uk-scrollspy="target: > ul; cls:uk-animation-fade; delay: 250;" uk-grid>
+        <ul class="uk-list">
+            <li>Benjamin Lierman</li>
+            <li>Werf 123</li>
+            <li>8970 Poperinge</li>
+            <li>BE 0671.689.168</li>
+        </ul>
+        <ul class="uk-list">
+            <li><a href="mailto:info@benjaminlierman.be" title="mail benjamin lierman">info@benjaminlierman.be</a></li>
+            <li>+ 32 (0) 493 74 70 29</li>
+        </ul>
+        <ul class="uk-list">
+            <li><a>Facebook</a></li>
+            <li><a>Pinterest</a></li>
+        </ul>
+    </section>
+</footer>
+
+<hr>
+
+<div class="uk-section uk-padding uk-text-muted">
+    <section uk-scrollspy="target: > small; cls:uk-animation-slide-bottom; delay: 250; repeat: true;">
+        <small>&copy; Copyright Benjamin Lierman 2017</small>
+        <a class="uk-link-reset" href="/terms-and-conditions">
+            <small class="uk-margin-small-left">Terms & Conditions</small>
+        </a>
+        <a class="uk-link-reset" href="/privacy-policy">
+            <small class="uk-margin-small-left">Privacy Policy</small>
+        </a>
+        <a class="uk-link-reset" href="/contact">
+            <small class="uk-align-right"><strong>Let's go</strong> <span class="uk-margin-small-right"
+                                                                          uk-icon="icon: arrow-right"></span></small>
+        </a>
+    </section>
+</div>
+
+<a id="totop" href="#" uk-totop uk-scroll="duration: 1400;"></a>";s:4:"code";N;}}

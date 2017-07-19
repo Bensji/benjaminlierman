@@ -1,0 +1,39 @@
+1500498898a:1:{s:15:"site/header.htm";a:5:{s:8:"fileName";s:15:"site/header.htm";s:7:"content";s:1265:"<div class="uk-position-relative">
+    <div id="top-nav" class="uk-position-top uk-position-fixed uk-blend-difference nav-down uk-animation-slide-top">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar style="padding-right: 30px;">
+            <div class="uk-navbar-left">
+                <a href="{{ 'home'|page }}" title="naar home benjamin lierman"><img class="uk-logo uk-padding-small"
+                                                                    src="{{ 'assets/images/svg/logo_benjaminlierman-white.svg' | theme }}"
+                                                                    style="width: 125px;"></a>
+            </div>
+            <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav">
+                    <li class="{% if this.page.id == 'home' %}uk-active{% endif %}"><a href="{{ 'home'|page }}">Home</a></li>
+                    <li class="{% if this.page.id == 'diensten' %}uk-active{% endif %}"><a href="{{ 'diensten'|page }}">Diensten</a>
+                    </li>
+                    <li class="{% if this.page.id == 'contact' %}uk-active{% endif %}"><a href="{{ 'contact'|page }}">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>";s:5:"mtime";i:1500480543;s:6:"markup";s:1265:"<div class="uk-position-relative">
+    <div id="top-nav" class="uk-position-top uk-position-fixed uk-blend-difference nav-down uk-animation-slide-top">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar style="padding-right: 30px;">
+            <div class="uk-navbar-left">
+                <a href="{{ 'home'|page }}" title="naar home benjamin lierman"><img class="uk-logo uk-padding-small"
+                                                                    src="{{ 'assets/images/svg/logo_benjaminlierman-white.svg' | theme }}"
+                                                                    style="width: 125px;"></a>
+            </div>
+            <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav">
+                    <li class="{% if this.page.id == 'home' %}uk-active{% endif %}"><a href="{{ 'home'|page }}">Home</a></li>
+                    <li class="{% if this.page.id == 'diensten' %}uk-active{% endif %}"><a href="{{ 'diensten'|page }}">Diensten</a>
+                    </li>
+                    <li class="{% if this.page.id == 'contact' %}uk-active{% endif %}"><a href="{{ 'contact'|page }}">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>";s:4:"code";N;}}

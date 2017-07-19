@@ -1,0 +1,22 @@
+<form class="contact--form" data-request="{{ genericForm }}::onFormSubmit">
+
+    {{ form_token() }}
+
+    <p id="error--message" class="uk-text-danger" style="display: none;">Oeps, deze velden zijn verplicht.</p>
+
+    <div class="uk-margin">
+        <input type="text" id="name" name="name" class="uk-input" placeholder="Naam" onchange="benj.formValidator.removeErrors(this)">
+    </div>
+
+    <div class="uk-margin">
+        <input type="text" id="email" name="email" class="uk-input" placeholder="E-mail" onchange="benj.formValidator.removeErrors(this)">
+    </div>
+
+    <div class="uk-margin">
+        <textarea class="uk-textarea" id="comments" placeholder="Bericht" name="comments" rows="8" cols="80" onchange="benj.formValidator.removeErrors(this)"></textarea>
+    </div>
+
+    <button id="simpleContactSubmitButton" type="submit"
+            class="uk-button-default uk-button uk-button-large uk-text-muted">Verzenden
+    </button>
+</form>

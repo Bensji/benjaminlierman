@@ -1,0 +1,137 @@
+//////////////
+// HEADER AND FOOTER STUFF
+//////////////
+
+#top-nav {
+  top: 0;
+  z-index: 999;
+  transition: top 0.7s ease-in-out;
+}
+
+#top-nav.nav-up {
+  top: -300px;
+}
+
+#totop {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+}
+
+#layout-footer > footer > section > ul > li
+{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+//////////////
+// GLOBAL COLOURS
+//////////////
+
+.icon-color-01 {
+  svg {
+    color: #3498db !important;
+  }
+}
+
+.icon-color-02 {
+  svg {
+    color: #2980b9 !important;
+  }
+}
+
+.icon-color-03 {
+  svg {
+    color: #e74c3c !important;
+  }
+}
+
+//////////////
+// MASKS
+//////////////
+
+@media (min-width: 960px) {
+  .mask-triangle-left {
+    -webkit-clip-path: polygon(0 0, 65% 0, 45% 100%, 0% 100%);
+    clip-path: polygon(0 0, 65% 0, 45% 100%, 0% 100%);
+  }
+
+  .mask-triangle-left-01 {
+    -webkit-clip-path: polygon(0 0, 50% 0, 40% 100%, 0% 100%);
+    clip-path: polygon(0 0, 50% 0, 40% 100%, 0% 100%);
+  }
+
+  .mask-triangle-right-01 {
+    -webkit-clip-path: polygon(50% 0, 100% 0, 100% 100%, 60% 100%);
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 60% 100%);
+  }
+}
+
+@media (max-width: 960px) {
+  .mask-triangle-left, .mask-triangle-left-01, .mask-triangle-right-01 {
+    background: none !important;
+  }
+}
+
+@media (min-width: 960px) {
+  .item-project-01-02 {
+    cursor: pointer;
+    background-image: url("../images/benj_loginpage.png");
+    background-position: 15% 260%;
+    background-size: 650px 400px;
+    background-repeat: no-repeat;
+    transition: all 1s ease;
+  }
+
+  .item-project-01-01:hover {
+    .item-project-01-02 {
+      background-color: rgba(231, 76, 60, 0.9);
+      background-position: 15% 200%;
+    }
+  }
+
+  .item-project-02-02 {
+    cursor: pointer;
+    background-image: url("../images/delicedagneau_screenshot.jpg");
+    background-position: 85% 250%;
+    background-size: 650px 400px;
+    background-repeat: no-repeat;
+
+    transition: all 1s ease;
+  }
+
+  .item-project-02-01:hover {
+    .item-project-02-02 {
+      background-color: rgba(231, 76, 60, 0.9);
+      background-position: 85% 190%;
+    }
+  }
+}
+
+//////////////
+// EXITING PAGE
+//////////////
+
+#main.is-exiting {
+  -webkit-animation-duration: .7s;
+  animation-duration: .7s;
+  transition-timing-function: ease-in;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+body html {
+  background: #FFFFFF !important;
+}

@@ -1,0 +1,54 @@
+1500498898a:1:{s:12:"diensten.htm";a:11:{s:8:"fileName";s:12:"diensten.htm";s:7:"content";s:1780:"title = "Diensten"
+url = "/diensten"
+layout = "default"
+meta_title = "Diensten - Webdevelopment, Webapplicaties en Digital branding - Benjamin Lierman"
+meta_description = "Gaande van Wordpress tot custom websites en webapplicaties. Custom webdesign en development naar de noden van je bedrijf. Daarnaast kan ik u ook helpen met uw merk online in het oog te laten springen. Dit aan de hand van marketingcampagnes via diverse media. Want ookal ligt de focus op het digitale, ook offline zijn wij een duurzame partner."
+is_hidden = 0
+==
+{% put metatags  %}
+<meta property="og:title" content="Diensten - Websites &amp; webapplicaties vanuit Poperinge - Benjamin Lierman">
+<meta property="og:url" content="http://www.benjaminlierman.be/diensten">
+<meta property="og:description" content="Websites en Webapplicaties rechtstreeks vanuit de Hoppestad Poperinge.
+    De ideale partner voor al uw digitale noden.">
+{% endput %}
+
+<section class="uk-background-cover uk-background-fixed uk-background-bottom-right"
+         style="background-image: url({{ 'assets/images/pexels-photo-230544.jpeg'|theme }});">
+    <header class="mask-triangle-left uk-padding uk-light uk-background-secondary uk-animation-slide-left" style="height: 55vh;">
+        <h1 class="uk-position-center-left uk-padding"> Diensten</h1>
+    </header>
+</section>
+
+<div class="uk-section uk-section-large">
+    <div class="uk-container uk-padding uk-text-justify"
+         uk-scrollspy="target: > p; cls:uk-animation-fade; delay: 250; repeat:true;">
+        <p>Ik ontwikkel zowel <strong>websites</strong> als <strong>op maat gemaakte webapplicaties.</strong></p>
+    </div>
+</div>
+
+{% partial 'misc/webdevelopment' %}
+{% partial 'misc/webapplicaties' %}
+{% partial 'misc/digitalbranding' %}";s:5:"mtime";i:1500481502;s:6:"markup";s:1239:"{% put metatags  %}
+<meta property="og:title" content="Diensten - Websites &amp; webapplicaties vanuit Poperinge - Benjamin Lierman">
+<meta property="og:url" content="http://www.benjaminlierman.be/diensten">
+<meta property="og:description" content="Websites en Webapplicaties rechtstreeks vanuit de Hoppestad Poperinge.
+    De ideale partner voor al uw digitale noden.">
+{% endput %}
+
+<section class="uk-background-cover uk-background-fixed uk-background-bottom-right"
+         style="background-image: url({{ 'assets/images/pexels-photo-230544.jpeg'|theme }});">
+    <header class="mask-triangle-left uk-padding uk-light uk-background-secondary uk-animation-slide-left" style="height: 55vh;">
+        <h1 class="uk-position-center-left uk-padding"> Diensten</h1>
+    </header>
+</section>
+
+<div class="uk-section uk-section-large">
+    <div class="uk-container uk-padding uk-text-justify"
+         uk-scrollspy="target: > p; cls:uk-animation-fade; delay: 250; repeat:true;">
+        <p>Ik ontwikkel zowel <strong>websites</strong> als <strong>op maat gemaakte webapplicaties.</strong></p>
+    </div>
+</div>
+
+{% partial 'misc/webdevelopment' %}
+{% partial 'misc/webapplicaties' %}
+{% partial 'misc/digitalbranding' %}";s:4:"code";N;s:5:"title";s:8:"Diensten";s:3:"url";s:9:"/diensten";s:6:"layout";s:7:"default";s:10:"meta_title";s:80:"Diensten - Webdevelopment, Webapplicaties en Digital branding - Benjamin Lierman";s:16:"meta_description";s:343:"Gaande van Wordpress tot custom websites en webapplicaties. Custom webdesign en development naar de noden van je bedrijf. Daarnaast kan ik u ook helpen met uw merk online in het oog te laten springen. Dit aan de hand van marketingcampagnes via diverse media. Want ookal ligt de focus op het digitale, ook offline zijn wij een duurzame partner.";s:9:"is_hidden";s:1:"0";}}

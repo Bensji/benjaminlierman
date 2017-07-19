@@ -1,0 +1,33 @@
+1500481146a:1:{s:24:"misc/webapplications.htm";a:5:{s:8:"fileName";s:24:"misc/webapplications.htm";s:7:"content";s:988:"<div class="uk-background-center-right uk-background-fixed uk-light"
+     style="background-image: url({{ 'assets/images/pexels-photo-267447.jpeg'|theme }});">
+    <div>
+        <section class="mask-triangle-left-01 uk-flex-middle uk-padding-large"
+                 uk-scrollspy="cls:uk-animation-slide-left; repeat:true;"
+                 style="background-color: #222222; height: 40vh;" uk-grid>
+            <div class="uk-width-1-3@m uk-padding-large">
+                <p class="uk-text-bold">Webapplicaties</p>
+                <p>Gebaseerd op <strong>Symfony en React.js</strong> creëren we voor jou een API-based webapplicatie op
+                    maat.</p>
+                <a class="uk-button-default uk-button uk-button-large uk-text-muted uk-margin"
+                   href="{{ 'diensten/webapplicaties'|page }}" title="Webapplications">Meer informatie<span
+                        uk-icon="icon: arrow-right"></span></a>
+            </div>
+        </section>
+    </div>
+</div>";s:5:"mtime";i:1500480487;s:6:"markup";s:988:"<div class="uk-background-center-right uk-background-fixed uk-light"
+     style="background-image: url({{ 'assets/images/pexels-photo-267447.jpeg'|theme }});">
+    <div>
+        <section class="mask-triangle-left-01 uk-flex-middle uk-padding-large"
+                 uk-scrollspy="cls:uk-animation-slide-left; repeat:true;"
+                 style="background-color: #222222; height: 40vh;" uk-grid>
+            <div class="uk-width-1-3@m uk-padding-large">
+                <p class="uk-text-bold">Webapplicaties</p>
+                <p>Gebaseerd op <strong>Symfony en React.js</strong> creëren we voor jou een API-based webapplicatie op
+                    maat.</p>
+                <a class="uk-button-default uk-button uk-button-large uk-text-muted uk-margin"
+                   href="{{ 'diensten/webapplicaties'|page }}" title="Webapplications">Meer informatie<span
+                        uk-icon="icon: arrow-right"></span></a>
+            </div>
+        </section>
+    </div>
+</div>";s:4:"code";N;}}
